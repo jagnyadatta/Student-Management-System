@@ -1,0 +1,28 @@
+/* ===============For mobile device============ */
+@media screen and (max-width: 480px){
+    .logo1, .logo2{
+        width: 30px;
+    }
+    h1{
+        line-height: 0;
+    }
+    h1 span{
+        font-size: 10px;
+    }
+}
+
+/* ================For Tablet Devices============ */
+@media screen and (min-width:481px) and (max-width:768px){
+    /* -------header section------ */
+    .logo1, .logo2{
+        width: 45px;
+    }
+    h1{
+        line-height: 0;
+    }
+    h1 span{
+        position: relative;
+        top: 10px;
+        font-size: 22px;
+    }
+}
