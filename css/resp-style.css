@@ -1,5 +1,6 @@
 /* ===============For mobile device============ */
 @media screen and (max-width: 480px){
+    /* -----header section---------  */
     .logo1, .logo2{
         width: 30px;
     }
@@ -9,10 +10,27 @@
     h1 span{
         font-size: 10px;
     }
+    /* ----------nav section--------*/
+    nav .navigation{
+        padding: 0;
+    }
+    .navigation ul{
+        display: block;
+    }
+    .navigation ul li{
+        display: none;
+    }
+    .navigation .loginSignin button{
+        padding: 4px;
+        font-size: 10px;
+    }
+    .navigation .loginSignin button:hover{
+        font-size: 10.3px;
+    }
 }
 
 /* ================For Tablet Devices============ */
-@media screen and (min-width:481px) and (max-width:768px){
+@media screen and (min-width:481px) and (max-width:884px){
     /* -------header section------ */
     .logo1, .logo2{
         width: 45px;
@@ -24,5 +42,12 @@
         position: relative;
         top: 10px;
         font-size: 22px;
+    }
+    /* ----------nav section--------*/
+    nav{
+        margin-top: 35px;
+    }
+    .navigation ul{
+        gap: 10px;
     }
 }

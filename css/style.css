@@ -10,6 +10,8 @@ body{
     font-family:"Arial";
     text-align:justify;
 }
+
+/* ================= Header Section============  */
 .head-container{ 
     max-width: 1170px;
     /* border:1px solid red; */
@@ -46,4 +48,53 @@ h1 span{
 	font-size:35px;
 	color:#053a7b;
 	text-transform:uppercase;
+}
+
+/*=============== navigation section ================ */
+nav{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    padding: 5px;
+    background-color: #f3f3ea;
+}
+nav .navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 10px;
+}
+.navigation ul li a{
+    color: #053a7b;
+    border: 1px solid #f3f3ea;
+    font-weight: bold;
+    text-decoration: none;  
+    transition: 0.3s;
+    padding: 7px;
+}
+.navigation ul li a:hover{
+    color: #c0d4ff;
+    background-color: #053a7b;
+    border: 1px solid #053a7b;
+    border-radius: 5px;
+    text-shadow: #000000 1px 0px 3px;
+    transition: 0.3s;
+}
+.navigation .loginSignin button{
+    color: #053a7b;
+    padding: 7px;
+    border: 1px solid #053a7b;
+    border-radius: 30px;
+}
+.navigation .loginSignin button:hover{
+    color: #c0d4ff;
+    font-size: 14px;
+    background-color: #053a7b;
+    text-shadow: #000000 1px 0px 3px;
+    transition: 0.3s;
+    cursor: pointer;
 }
