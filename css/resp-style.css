@@ -1,67 +1,178 @@
 /* ===============For mobile device============ */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
+
     /* -----header section---------  */
-    .logo1, .logo2{
+    .logo1,
+    .logo2 {
         width: 30px;
     }
-    h1{
+
+    h1 {
         line-height: 0;
     }
-    h1 span{
+
+    h1 span {
         font-size: 10px;
     }
+
     /* ----------nav section--------*/
-    nav .navigation{
+    nav{
+        z-index: 1000;
+    }
+    nav .navigation {
         padding: 0;
     }
-    .navigation .menu1{
+
+    .navigation .menu1 {
         display: block;
         font-size: 15px;
         font-weight: bold;
+        padding: 0 5px;
+        border-radius: 2px;
+        transition: 0.3s;
     }
-    .navigation .menu1 .txt{
-        font-size: 11px;
-        font-family: Arial, Helvetica, sans-serif;
+
+    .navigation .menu1:hover{
+        color: chartreuse;
+        background-color: #053a7b;
+        transition: 0.3s;
+        cursor: pointer;
     }
-    .navigation .menu2{
+
+    .navigation .menu2 {
         display: none;
+        color: chartreuse;
+        background-color: #053a7b;
         font-size: 16px;
         font-weight: bold;
+        padding: 0 5px;
+        border-radius: 2px;
+        transition: 0.3s;
     }
-    .navigation ul{
-        display: block;
-    }
-    .navigation ul li{
+
+    .navigation ul {
         display: none;
+        /* border: 1px solid red; */
+        width: 100%;
+        margin-top: 22px;
+        margin-left: -20px;
+        z-index: 1000;
+        transition: 0.5s;
     }
-    .navigation .loginSignin button{
+
+    .navigation ul li {
+        display: block;
+        /* margin-top: 6px; */
+        background-color: #053a7b;
+        padding: 5px;
+        z-index: 1000;
+        border-bottom:2px dotted rgb(162, 165, 220);
+    }
+
+    .navigation ul li:first-child {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .navigation ul li:last-child {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom: none;
+    }
+
+    .navigation ul li a {
+        color: white;
+        border: none;
+    }
+
+    .navigation ul li a:hover,
+    .navigation ul li a.active {
+        color: chartreuse;
+        border-radius: 5px;
+        text-shadow: #ffffff 1px 0px 10px;
+        transition: 0.3s;
+    }
+
+    .navigation .loginSignin button {
+        display: block;
         padding: 4px;
         font-size: 10px;
     }
-    .navigation .loginSignin button:hover{
-        font-size: 10.3px;
+
+    .navigation .loginSignin button:hover {
+        color: chartreuse;
+        font-size: 10px;
+        text-shadow: #ffffff 1px 0px 10px;
     }
 }
 
 /* ================For Tablet Devices============ */
-@media screen and (min-width:481px) and (max-width:884px){
+@media screen and (min-width:481px) and (max-width:884px) {
+
     /* -------header section------ */
-    .logo1, .logo2{
+    .logo1,
+    .logo2 {
         width: 45px;
     }
-    h1{
+
+    h1 {
         line-height: 0;
     }
-    h1 span{
+
+    h1 span {
         position: relative;
         top: 10px;
         font-size: 22px;
     }
+
     /* ----------nav section--------*/
-    nav{
+    nav {
         margin-top: 35px;
     }
-    .navigation ul{
+
+    .navigation ul {
         gap: 10px;
     }
+}
+
+/*======================LogIn Page POP UP================  */
+.wrapper{
+    width: 250px;
+    height: 300px;
+    /* overflow: visible; */
+}
+.wrapper.active{
+    height: 400px;
+}
+.wrapper .icon-close{
+    width: 30px;
+    height: 30px;
+    font-size: 1.5em;
+}
+.form-box h2{
+    font-size: 1.4em;
+}
+.input-box{
+    height: 40px;
+    margin: 25px 0;
+}
+.input-box label{
+    font-size: .7em;
+}
+.input-box input{
+    height: 90%;
+    font-size: .7em;
+}
+.input-box .icon{
+    font-size: .8em;
+}
+.remember-forgot{
+    font-size: .7em;
+}
+.form-box .btn{
+    height: 30px;
+    font-size: .8em;
+}
+.login-register{
+    font-size: .7em;
 }
