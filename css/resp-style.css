@@ -16,9 +16,10 @@
     }
 
     /* ----------nav section--------*/
-    nav{
+    nav {
         z-index: 1000;
     }
+
     nav .navigation {
         padding: 0;
     }
@@ -32,7 +33,7 @@
         transition: 0.3s;
     }
 
-    .navigation .menu1:hover{
+    .navigation .menu1:hover {
         color: chartreuse;
         background-color: #053a7b;
         transition: 0.3s;
@@ -66,7 +67,7 @@
         background-color: #053a7b;
         padding: 5px;
         z-index: 1000;
-        border-bottom:2px dotted rgb(162, 165, 220);
+        border-bottom: 2px dotted rgb(162, 165, 220);
     }
 
     .navigation ul li:first-child {
@@ -104,6 +105,74 @@
         font-size: 10px;
         text-shadow: #ffffff 1px 0px 10px;
     }
+
+    /* -----------Option Login------------  */
+    .optionLogin{
+        position: absolute;
+        top: 69px;
+        right: 22px;
+        width: 80px;
+        height: 40px;
+        padding: 2px 0;
+    }
+    .optionLogin .boxoption{
+        font-size: 10px;
+    }
+    .optionLogin #student{
+        margin-top: 0;
+    }
+
+    /*------------LogIn Page POP UP------------- */
+    .wrapper {
+        width: 250px;
+        height: 300px;
+        /* overflow: visible; */
+    }
+
+    .wrapper.active {
+        height: 400px;
+    }
+
+    .wrapper .icon-close {
+        width: 30px;
+        height: 30px;
+        font-size: 1.5em;
+    }
+
+    .form-box h2 {
+        font-size: 1.4em;
+    }
+
+    .input-box {
+        height: 40px;
+        margin: 25px 0;
+    }
+
+    .input-box label {
+        font-size: .7em;
+    }
+
+    .input-box input {
+        height: 90%;
+        font-size: .7em;
+    }
+
+    .input-box .icon {
+        font-size: .8em;
+    }
+
+    .remember-forgot {
+        font-size: .7em;
+    }
+
+    .form-box .btn {
+        height: 30px;
+        font-size: .8em;
+    }
+
+    .login-register {
+        font-size: .7em;
+    }
 }
 
 /* ================For Tablet Devices============ */
@@ -133,46 +202,20 @@
     .navigation ul {
         gap: 10px;
     }
-}
 
-/*======================LogIn Page POP UP================  */
-.wrapper{
-    width: 250px;
-    height: 300px;
-    /* overflow: visible; */
-}
-.wrapper.active{
-    height: 400px;
-}
-.wrapper .icon-close{
-    width: 30px;
-    height: 30px;
-    font-size: 1.5em;
-}
-.form-box h2{
-    font-size: 1.4em;
-}
-.input-box{
-    height: 40px;
-    margin: 25px 0;
-}
-.input-box label{
-    font-size: .7em;
-}
-.input-box input{
-    height: 90%;
-    font-size: .7em;
-}
-.input-box .icon{
-    font-size: .8em;
-}
-.remember-forgot{
-    font-size: .7em;
-}
-.form-box .btn{
-    height: 30px;
-    font-size: .8em;
-}
-.login-register{
-    font-size: .7em;
+    /* -----------Option Login------------  */
+    .optionLogin{
+        position: absolute;
+        top: 90px;
+        right: 22px;
+        width: 100px;
+        height: 60px;
+        padding: 2px 0;
+    }
+    .optionLogin .boxoption{
+        font-size: 15px;
+    }
+    .optionLogin #student{
+        margin-top: 4px;
+    }
 }

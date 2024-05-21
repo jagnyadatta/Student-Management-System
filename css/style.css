@@ -4,7 +4,7 @@
 }
 body{
     margin: 5px 20px;
-    background:#fff;
+    background:#eef0e8;
     font-size:15px;
     line-height:24px;
     font-family:"Arial";
@@ -55,7 +55,7 @@ nav{
     margin-top: 20px;
     /* border: 2px solid red; */
     padding: 3px;
-    background-color: #f3f3ea;
+    /* background   -color: #ffffff; */
     z-index: 1000;
 }
 nav .navigation{
@@ -77,7 +77,7 @@ nav .navigation{
 }
 .navigation ul li a{
     color: #053a7b;
-    border: 1px solid #f3f3ea;
+    /* border: 1px solid #f3f3ea; */
     font-weight: bold;
     text-decoration: none;  
     transition: 0.3s;
@@ -107,12 +107,44 @@ nav .navigation{
     cursor: pointer;
 }
 
+.optionLogin{
+    position: absolute;
+    top: 111px;
+    right: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    width: 100px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #053a7b;
+}
+.optionLogin .boxoption{
+    color: #c0d4ff;
+    font-size: 15px;
+    text-shadow: #000000 1px 0px 3px;
+    transition: .3s;
+}
+.optionLogin .boxoption:hover{
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+.optionLogin #student{
+    margin-top: 4px;
+}
+
 /* ====================LoginPage PoP Up=============== */
 .loginpage{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    /* border: 2px solid red;
+    height: 400px; */
 }
 .wrapper{
     position: relative;
