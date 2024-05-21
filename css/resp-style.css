@@ -115,7 +115,7 @@
         height: 40px;
         padding: 2px 0;
     }
-    .optionLogin .boxoption{
+    .optionLogin .boxoption button{
         font-size: 10px;
     }
     .optionLogin #student{
@@ -212,7 +212,7 @@
         height: 60px;
         padding: 2px 0;
     }
-    .optionLogin .boxoption{
+    .optionLogin .boxoption button{
         font-size: 15px;
     }
     .optionLogin #student{

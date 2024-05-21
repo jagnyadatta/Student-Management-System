@@ -7,7 +7,9 @@
     <title>Student Management System</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/resp-style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -18,7 +20,7 @@
                         alt="" class="logo1" /></a>
                 <span>INDIRA GANDHI INSTITUTE OF TECHNOLOGY</span>
                 <a href="https://igitsarang.ac.in/"><img src="https://igitsarang.ac.in/assets/frontend//images/logo.png"
-                        alt="" class="logo2" /></a>       
+                        alt="" class="logo2" /></a>
             </h1>
         </div>
     </div>
@@ -40,21 +42,87 @@
                 <li><a href="#">Results</a></li>
             </ul>
             <div class="loginSignin">
-                <button>Login/SignUp</button>
+                <button onclick=openOptionLogin()>Login/SignUp</button>
             </div>
         </div>
         <div class="optionLogin">
             <div id="lecture" class="boxoption">
-                <h4>Lecture</h4>
+                <button>Lecture</button>
             </div>
             <div id="student" class="boxoption">
-                <h4>Student</h4>
+                <button>Student</button>
             </div>
         </div>
     </nav>
+    <!-- Background Body -->
+    <!-- <div class="backGroundBody">
+        <div class="profile-info">
+            
+        </div>
+        <div class="college-photo">
+
+        </div>
+    </div> -->
+
 
     <!------------ LogIn Page POP UP ---------->
     <div class="loginpage">
+        <div class="wrapper">
+            <span class="icon-close">
+                <ion-icon name="close"></ion-icon>
+            </span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#">Forgot Password</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Full Name</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to the terms & conditions.</label>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
         <div class="wrapper">
             <span class="icon-close">
                 <ion-icon name="close"></ion-icon>
@@ -115,7 +183,7 @@
 
     <script src="./js/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
