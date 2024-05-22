@@ -47,14 +47,14 @@ loginLink.addEventListener('click',()=>{
 btnPopUpStd.addEventListener('click',()=>{
     wrapper.classList.add('active-popup');
     optionLogin.style.transform = 'translateX(400px)';
-    background.style.display = 'none';
+    // background.style.display = 'none';
 });
 btnPopUpLec.addEventListener('click',()=>{
     wrapper.classList.add('active-popup');
     optionLogin.style.transform = 'translateX(400px)';
-    background.style.display = 'none';
+    // background.style.display = 'none';
 });
 iconClose.addEventListener('click',()=>{
     wrapper.classList.remove('active-popup');
-    background.style.display = 'block';
+    // background.style.display = 'block';
 });
