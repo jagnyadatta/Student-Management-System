@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0; 
 }
+html{
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
 body{
     margin: 5px 20px;
     background:#ffffff;
@@ -474,4 +478,50 @@ nav .navigation{
 }
 #courses .section .box a:hover{
     color: white;
+}
+#courses .section #box2{
+    color: #162938;
+    background: rgb(0, 238, 255);
+}
+#courses .section #box2 .line{
+    border: 3px solid #fe0101;
+}
+#courses .section #box2 a{
+    color: #162938;
+}
+#courses .section #box2 a:hover{
+    color: red;
+}
+#courses .section #box3{
+    background: rgb(111, 255, 0);
+}
+#courses .section #box3 .line{
+    border: 3px solid rgb(8, 0, 255);
+}
+#courses .section #box3 a{
+    color: #162938;
+}
+#courses .section #box3 a:hover{
+    color: red;
+}
+#courses .section #box4{
+    background: rgb(200, 0, 255);
+}
+#courses .section #box4 .line{
+    border: 3px solid rgb(111, 255, 0);
+}
+#courses .section #box5{
+    background: rgb(255, 247, 0);
+}
+#courses .section #box5 .line{
+    border: 3px solid rgb(255, 0, 238);
+}
+#courses .section #box5 a{
+    color: #162938;
+}
+#courses .section #box5 a:hover{
+    color: rgb(217, 0, 255);
+}
+#courses .section #box6{
+    background: rgb(8, 0, 255);
 }
