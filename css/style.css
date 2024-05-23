@@ -416,3 +416,62 @@ nav .navigation{
     font-size: 20px;
     margin-top: 25px;
 }
+
+
+/* ===================Academic Courses Section===============  */
+#courses{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding: 20px;
+    padding-top: 0px;
+}
+#courses h1,hr{
+    width: 350px;
+    color: #053a7b;
+    font-size: 25px;
+    text-align: start;
+}
+#courses .section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-top: 30px;
+}
+#courses .section .box{
+    width: 330px;
+    height: 150px;
+    color: #ffffff;
+    background: red;
+    border: 1px solid rgb(60, 0, 255);
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+#courses .section .box .desc{
+    display: flex;
+    gap: 3px;
+}
+#courses .section .box .desc .line{
+    width: 0px;
+    height: 65px;
+    margin-right: 10px;
+    border: 3px solid rgb(0, 255, 255);
+}
+#courses .section .box a{
+    width: 80px;
+    color: #c0c7ff;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+#courses .section .box a:hover{
+    color: white;
+}

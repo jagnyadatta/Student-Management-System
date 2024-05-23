@@ -222,6 +222,36 @@
         font-size: 15px;
         margin-top: 21px;
     }
+
+    
+    /*----------- Academic Courses Section ------------ */
+    #courses{
+        margin-top: 30px;
+    }
+    #courses h1{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    #courses hr{
+        width: 260px;
+    }
+    #courses .section{
+        padding-left: 0;
+        padding-right: 0;
+        gap: 10px;
+    }
+    #courses .section .box{
+        width: 100%;
+        height: 120px;
+    }
+    #courses .section .box .desc{
+        font-size: 12px;
+    }
+    #courses .section .box a{
+        width: 60px;
+        font-size: 10px;
+        padding: 0px;
+    }
 }
 
 /* ================For Tablet Devices============ */
@@ -311,5 +341,16 @@
     .director-pht .bottom{
         font-size: 18px;
         margin-top: 0px;
+    }
+
+    /*----------- Academic Courses Section ------------ */
+    #courses{
+        margin-top: 30px;
+    }
+    #courses h1,hr{
+        line-height: 23px;
+    }
+    #courses .section .box{
+        width: 100%;
     }
 }
