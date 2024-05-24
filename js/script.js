@@ -23,20 +23,11 @@ function hideSidebar(){
 
 //===========Login page POP UP===============
 
-//--------------- option login --------------
-function openOptionLogin(){
-    const optionLogin = document.querySelector('.optionLogin');
-    optionLogin.style.transform = 'translateX(0)' 
-}
-
 const wrapper = document.querySelector('.wrapper');
 const loginLink = document.querySelector('.login-link');
 const registerLink = document.querySelector('.register-link');
-const btnPopUpStd = document.querySelector('#student');
-const btnPopUpLec = document.querySelector('#lecture');
 const iconClose = document.querySelector('.icon-close');
-const optionLogin = document.querySelector('.optionLogin');
-const background = document.querySelector('.backGroundBody');
+const loginsignin = document.querySelector('.loginSignin');
 
 registerLink.addEventListener('click',()=>{
     wrapper.classList.add('active');
@@ -44,17 +35,9 @@ registerLink.addEventListener('click',()=>{
 loginLink.addEventListener('click',()=>{
     wrapper.classList.remove('active');
 });
-btnPopUpStd.addEventListener('click',()=>{
+loginsignin.addEventListener('click',()=>{
     wrapper.classList.add('active-popup');
-    optionLogin.style.transform = 'translateX(400px)';
-    // background.style.display = 'none';
-});
-btnPopUpLec.addEventListener('click',()=>{
-    wrapper.classList.add('active-popup');
-    optionLogin.style.transform = 'translateX(400px)';
-    // background.style.display = 'none';
 });
 iconClose.addEventListener('click',()=>{
     wrapper.classList.remove('active-popup');
-    // background.style.display = 'block';
 });

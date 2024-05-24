@@ -105,22 +105,6 @@
         text-shadow: #ffffff 1px 0px 10px;
     }
 
-    /* -----------Option Login------------  */
-    .optionLogin{
-        position: absolute;
-        top: 69px;
-        right: 22px;
-        width: 80px;
-        height: 40px;
-        padding: 2px 0;
-    }
-    .optionLogin .boxoption button{
-        font-size: 10px;
-    }
-    .optionLogin #student{
-        margin-top: 0;
-    }
-
     /*------------LogIn Page POP UP------------- */
     .wrapper {
         width: 300px;
@@ -228,7 +212,8 @@
         margin-top: 30px;
     }
     #courses h1{
-        font-size: 20px;
+        width: 70%;
+        font-size: 15px;
         line-height: 23px;
     }
     #courses hr{
@@ -287,22 +272,6 @@
         /* overflow: visible; */
     }
 
-    /* -----------Option Login------------  */
-    .optionLogin{
-        position: absolute;
-        top: 90px;
-        right: 22px;
-        width: 100px;
-        height: 60px;
-        padding: 2px 0;
-    }
-    .optionLogin .boxoption button{
-        font-size: 15px;
-    }
-    .optionLogin #student{
-        margin-top: 4px;
-    }
-
     /* ----------bodybackground--------- */
     .backGroundBody{
         flex-direction: column;
@@ -347,6 +316,7 @@
         margin-top: 30px;
     }
     #courses h1,hr{
+        width: 60%;
         line-height: 23px;
     }
     #courses .section .box{
