@@ -386,6 +386,30 @@ nav .navigation{
     margin-top: 25px;
 }
 
+/* ==================institute profile section ============= */
+.insti-prof{
+    /* border: 1px solid red; */
+    /* margin-top: 30px; */
+    /* padding-top: 80px; */
+    /* padding: 10px; */
+    padding: 40px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.insti-prof h1{
+    width: 100%;
+    color: #053a7b;
+    font-size: 25px;
+    text-align: start;
+    font-weight: bold;
+}
+.insti-prof img{
+    width: 100%;
+    height: auto;
+}
+
 
 /* ===================Academic Courses Section===============  */
 #courses{
@@ -393,7 +417,7 @@ nav .navigation{
     flex-direction: column;
     /* border: 2px solid red; */
     padding: 20px;
-    padding-top: 0px;
+    padding-top: 40px;
 }
 #courses h1,hr{
     width: 30%;
@@ -476,6 +500,7 @@ nav .navigation{
     border: 3px solid rgb(111, 255, 0);
 }
 #courses .section #box5{
+    color: #162938;
     background: rgb(255, 247, 0);
 }
 #courses .section #box5 .line{
