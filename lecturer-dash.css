@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  .logo{
+    width: 90px;
+    float:right;
+  }
+  /* ================= Side navigation Section============  */
+  
+  .side-menu {
+    height: 100%;
+    width: 165px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    transition: left ;
+    background-color: rgb(167, 43, 228);
+    border: 3px solid rgb(245, 189, 245);
+    border-radius: 15px;
+  }
+  .side-menu ul {
+    text-align: center;
+    list-style-type: none;  
+    padding: 0%;    
+  }
+  
+  .side-menu a {
+    display: block;
+    padding: 1rem 0rem;
+    text-decoration: none;
+  }
+  
+  .side-menu a span {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    color:rgb(41, 40, 40);
+  }
+  
+  .side-menu a small {
+    color: #f5f4f5;
+  }
+  
+  /*=========contents of the page===========*/
+  
+  
