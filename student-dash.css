@@ -1,0 +1,59 @@
+html{
+    scroll-behavior: smooth;
+}
+/* ================= Header Section============  */
+#home{
+    display: flex;
+    align-items: center;
+        position: fixed;
+        right: 10px;
+        left: 190px;
+        height: 80px;
+        transition: left 300ms;
+        padding: 1rem 1rem;
+        border: 3px solid purple;
+        border-radius: 15px;
+}
+.logo1{
+    width: 90px;
+    float:left;
+}
+.logo2{
+    width: 90px;
+    float:right;
+}
+/* ================= Side navigation Section============  */
+
+.side-menu {
+    height: 100%;
+    width: 165px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    transition: left ;
+    background-color: darkorchid;
+    border: 3px solid purple;
+    border-radius: 15px;
+}
+.side-menu ul {
+    text-align: center;
+    list-style-type: none;  
+    padding: 0%;    
+}
+
+.side-menu a {
+    display: block;
+    padding: 1rem 0rem;
+    text-decoration: none;
+}
+
+.side-menu a span {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.side-menu a span, .side-menu a small {
+    color: #2b0437;
+    
+}
