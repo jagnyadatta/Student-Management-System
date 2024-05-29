@@ -556,3 +556,77 @@ nav .navigation{
     border: 1px solid #c0c7ff;
     border-radius: 10px;
 }
+
+/*================== Result section============== */
+#result{
+    width: 98.5%;
+    height: auto;
+    padding: 40px 10px 10px 10px;
+    /* border: 1px solid red; */
+}
+#result h1{
+    width: 100%;
+    color: #053a7b;
+    font-size: 25px;
+    text-align: start;
+    font-weight: bold;
+}
+.result-box{
+    /* margin: 0px 20px 0px 20px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid rgb(166, 0, 255);
+    border-radius: 10px;
+}
+.result-box .filter-box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.result-box .filter-box select{
+    width: 250px;
+    padding: 7px;
+    color: #053a7b;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #162938;
+    border-radius: 5px;
+}
+.result-box .filter-box button{
+    width: 100px;
+    padding: 7px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #053a7b;
+    border: 2px solid #162938;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.result-box .filter-box button:hover{
+    color: #053a7b;
+    background-color: burlywood;
+    transition: .3s;
+}
+#resultTable{
+    margin-top: 40px;
+    width: 90%;
+    border-collapse: collapse;
+}
+#resultTable th{
+    background-color: #b3d0f2;
+}
+#resultTable th,td{
+    padding: 10px;
+    border: 2px solid #ddd;
+    text-align: center;
+}
+#resultTable a span{
+    color: green;
+    font-size: 20px;
+}

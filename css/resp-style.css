@@ -250,8 +250,42 @@
         gap: 5px;
     }
     .gallery .gbox .boximg{
+        width: 130px;
+        height: 130px;
+    }
+
+    /*----------------- Result Section -----------------*/
+    #result{
+        padding: 0px;
+        margin-top: 20px;
+    }
+    .result-box .filter-box{
+        flex-direction: column;
+    }
+    .result-box .filter-box select{
+        font-size: 13px;
+        width: 250px;
+        padding: 5px;
+    }
+    .result-box .filter-box button{
+        font-size: 13px;
+        padding: 5px;
+    }
+    /* #resultTable{
         width: 150px;
-        height: 150px;
+    } */
+    #resultTable th,td{
+        padding: 1px;
+        border: 2px solid #ddd;
+        text-align: center;
+    }
+    #resultTable td{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    #resultTable th{
+        padding: 3px;
+        font-size: 13px;
     }
 }
 
@@ -340,5 +374,13 @@
     }
     #courses .section .box{
         width: 100%;
+    }
+
+    /*----------------- Result Section -----------------*/
+    .result-box .filter-box{
+        flex-direction: column;
+    }
+    .result-box .filter-box select{
+        width: 400px;
     }
 }
