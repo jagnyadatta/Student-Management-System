@@ -383,4 +383,8 @@
     .result-box .filter-box select{
         width: 400px;
     }
+    #resultTable{
+        /* border: 2px solid red; */
+        padding-left: 40px;
+    }
 }

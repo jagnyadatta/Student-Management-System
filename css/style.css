@@ -613,7 +613,14 @@ nav .navigation{
     background-color: burlywood;
     transition: .3s;
 }
+#errorMsg{
+    display: none;
+    color: red;
+    font-size: 15px;
+    margin-top: 10px;
+}
 #resultTable{
+    display: none;
     margin-top: 40px;
     width: 90%;
     border-collapse: collapse;
