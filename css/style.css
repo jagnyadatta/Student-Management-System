@@ -622,10 +622,13 @@ nav .navigation{
 #resultTable{
     display: none;
     margin-top: 40px;
+    margin-left: 70px;
     width: 90%;
     border-collapse: collapse;
 }
-#resultTable th{
+#resultTable tr th{
+    padding-left: 60px;
+    padding-right: 60px;
     background-color: #b3d0f2;
 }
 #resultTable th,td{
@@ -636,4 +639,23 @@ nav .navigation{
 #resultTable a span{
     color: green;
     font-size: 20px;
+}
+
+/* =======================Links Section================  */
+#links ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    /* align-items: center; */
+    gap: 30px;
+    list-style: none;
+}
+#links .impLinks{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
 }
