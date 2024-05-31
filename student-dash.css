@@ -65,8 +65,12 @@ html{
 }
 
 .side-menu a span, .side-menu a small {
-    color: #2b0437;
+    color: #f5f2f7;
     }
+    .side-menu a span:hover, .side-menu a small:hover {
+        color: rgb(59, 8, 101)
+        }
+
     /* ================main content============  */
    main{
     position: relative;
@@ -74,15 +78,18 @@ html{
    }
     main .container {
         display: grid;
-        text-align: center; 
+        text-align: left; 
         position:absolute ;
         left: 190px;
-    bottom:105px;
+        bottom:200px;
         background-color: rgb(194, 133, 224);
         border: 3px solid purple;
         border-radius: 15px;
-    width: 800px;
-    padding-left: 1.5rem;
+        width: 800px;
+        padding-left: 1.5rem;
+        padding-bottom: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 45px;;
     }
     /* Right content */
 .right{margin-top: 2.2rem;padding-left: 1.5rem;}
@@ -102,7 +109,7 @@ html{
     text-align: left; 
     position:relative ;
      left:72%;
-     bottom: 300px;
+     bottom: 350px;
     background-color: rgb(194, 133, 224);
     border: 3px solid purple;
     border-radius: 15px;
