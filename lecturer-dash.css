@@ -1,8 +1,9 @@
-
 html{
     scroll-behavior: smooth;
 }
+
 /* ================= Header Section============  */
+
 #home{
     display: flex;
     align-items: center;
@@ -34,6 +35,7 @@ html{
     float:right;
     
 }
+
 /* ================= Side navigation Section============  */
 
 .side-menu {
@@ -68,11 +70,18 @@ html{
 .side-menu a span, .side-menu a small {
     color:#f5f4f5;
 }
+
+.side-menu a span:hover, .side-menu a small:hover {
+    color: rgb(28, 27, 27);
+}
+
     /* ================main content============  */
+
 main{
     position: absolute;
     margin-top: 5rem;
 }
+
 main .container {
     display: grid;
     text-align: left; 
@@ -85,8 +94,11 @@ main .container {
     width: 800px;
     padding-left: 1.5rem;
 }
+
     /* Right content */
+
 .right{margin-top: 2.2rem;padding-left: 0.5rem;}
+
 .profile{
     display: flex;
     position:absolute ;
@@ -97,5 +109,3 @@ main .container {
     border: 3px solid purple;
     border-radius: 15px;
 }
-
-  
