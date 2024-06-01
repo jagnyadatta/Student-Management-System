@@ -1,47 +1,101 @@
+
 html{
     scroll-behavior: smooth;
-  }
-  
-  .logo{
-    width: 90px;
+}
+/* ================= Header Section============  */
+#home{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    left: 190px;
+    height: 80px;
+    transition: left 300ms;
+    padding: 1rem 1rem;
+    border: 3px solid purple;
+    border-radius: 15px;
+}
+#home span{
+    position: relative;
+    right: 10px;
+    left: 190px;
+    top:30px;
+}
+.logo1{
+    width: 100px;
+    position: relative;
+    float:left;
+    padding-bottom: 1rem;
+}
+.logo2{
+    width: 100px;
+    position: relative;
+    left:35%;
     float:right;
-  }
-  /* ================= Side navigation Section============  */
-  
-  .side-menu {
+    
+}
+/* ================= Side navigation Section============  */
+
+.side-menu {
     height: 100%;
     width: 165px;
     left: 0;
     bottom: 0;
-    top: 0;
+    top: 50px;
     transition: left ;
-    background-color: rgb(167, 43, 228);
-    border: 3px solid rgb(245, 189, 245);
+    background-color: darkorchid;
+    border: 3px solid purple;
     border-radius: 15px;
-  }
-  .side-menu ul {
+}
+.side-menu ul {
     text-align: center;
     list-style-type: none;  
     padding: 0%;    
-  }
-  
-  .side-menu a {
+}
+
+.side-menu a {
     display: block;
-    padding: 1rem 0rem;
+    padding: 1rem 2rem;
     text-decoration: none;
-  }
-  
-  .side-menu a span {
+}
+
+.side-menu a span {
     display: block;
     text-align: center;
-    font-size: 2rem;
-    color:rgb(41, 40, 40);
-  }
-  
-  .side-menu a small {
-    color: #f5f4f5;
-  }
-  
-  /*=========contents of the page===========*/
-  
+    font-size: 3rem;
+}
+
+.side-menu a span, .side-menu a small {
+    color:#f5f4f5;
+}
+    /* ================main content============  */
+main{
+    position: absolute;
+    margin-top: 5rem;
+}
+main .container {
+    display: grid;
+    text-align: left; 
+    position:absolute ;
+    left: 190px;
+    bottom:105px;
+    background-color: rgb(194, 133, 224);
+    border: 3px solid purple;
+    border-radius: 15px;
+    width: 800px;
+    padding-left: 1.5rem;
+}
+    /* Right content */
+.right{margin-top: 2.2rem;padding-left: 0.5rem;}
+.profile{
+    display: flex;
+    position:absolute ;
+    right: 100px;
+    top: 200px;
+    transition: right;
+    background-color: rgb(242, 240, 244);
+    border: 3px solid purple;
+    border-radius: 15px;
+}
+
   
