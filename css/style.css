@@ -659,3 +659,43 @@ nav .navigation{
     justify-content: center;
     gap: 50px;
 }
+
+/* ============== Footer Section =================== */
+.foot1{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: #001e43;
+    gap: 60px;
+}
+.foot1 .list-sec{
+    display: flex;
+    gap: 60px;
+}
+.foot1 .list-sec ul{
+    margin-top: 15px;
+}
+.foot1 .list-sec ul li {
+    list-style:none;
+    color: white;
+}
+.foot1 .list-sec ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.foot1 .list-sec .last-links{
+    display: flex;
+    flex-direction: column;
+}
+/* ==== */
+footer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background-color: #424452;
+}

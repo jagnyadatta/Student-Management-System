@@ -110,7 +110,7 @@
         width: 300px;
         height: 300px;
         top: 130px;
-        left: 11%;
+        left: 8%;
     }
 
     .wrapper.active {
@@ -304,6 +304,24 @@
     #links .impLinks .imgs a img{
         width: 130px;
     }
+
+    /* --------------- footer section -----------------*/
+    .foot1 .img-clg img{
+        width: 130px;
+        margin-left: 80px;
+    }
+    .foot1 .list-sec{
+        display: none;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer p{
+        font-size: 10px;
+    }
 }
 
 
@@ -425,5 +443,20 @@
     #links ul li a img{
         width: 250px;
         height: 40px;
+    }
+
+    /* --------------- footer section -----------------*/
+    .foot1 .img-clg{
+        display: flex;
+        gap: 90px;
+    }
+    .foot1 .img-clg img{
+        width: 150px;
+    }
+    .foot1 .list-sec{
+        display: none;
+    }
+    footer p{
+        font-size: 13px;
     }
 }
